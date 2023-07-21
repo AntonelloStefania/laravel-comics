@@ -21,9 +21,7 @@ header {
         }
     }
 
-    a {
-        color: #464646;
-    }
+
 
     img {
         width: 50px;
@@ -46,6 +44,14 @@ header {
 
     li {
         font-size: 12px;
+
+        padding: 0 5px;
+
+        align-self: center;
+
+        a {
+            color: #464646 !important;
+        }
     }
 }
 
@@ -69,6 +75,12 @@ footer {
             text-decoration: none;
             color: white;
         }
+    }
+
+    .footer-bg {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
 
     .bottom-footer {

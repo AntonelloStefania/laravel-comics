@@ -12,16 +12,16 @@
                 </div>
                 <div class="d-flex align-items-center">
                     <ul class="list-unstyled d-flex ms-5">
-                        <a href="/" class="text-decoration-none align-self-end {{Route::currentRouteName() === 'homepage' ? 'active': ''}}"><li class="mx-2">CHARACTERS</li></a>
-                        <a href="/" class="text-decoration-none align-self-end"><li class="mx-2">COMICS</li></a>
-                        <a href="/" class="text-decoration-none align-self-end"><li class="mx-2">MOVIES</li></a>
-                        <a href="/" class="text-decoration-none align-self-end"><li class="mx-2">TV</li></a>
-                        <a href="/" class="text-decoration-none align-self-end"><li class="mx-2">GAMES</li></a>
-                        <a href="/" class="text-decoration-none align-self-end"><li class="mx-2">COLLECTIBLES</li></a>
-                        <a href="/" class="text-decoration-none align-self-end"><li class="mx-2">VIDEOS</li></a>
-                        <a href="/" class="text-decoration-none align-self-end"><li class="mx-2">FANS</li></a>
-                        <a href="/" class="text-decoration-none align-self-end"><li class="mx-2">NEWS</li></a>
-                        <a href="/" class="text-decoration-none align-self-end"><li class="mx-2">SHOP</li></a>
+                        <li></li><a href="/" class="text-decoration-none align-self-end {{Route::currentRouteName() === 'homepage' ? 'active': ''}}">CHARACTERS</a></li>
+                        <li><a href="/" class="text-decoration-none align-self-end">COMICS</a></li>
+                       <li><a href="/" class="text-decoration-none align-self-end">MOVIES</a></li>
+                        <li><a href="/" class="text-decoration-none align-self-end">TV</a></li>
+                        <li><a href="/" class="text-decoration-none align-self-end">GAMES</a></li>
+                        <li><a href="/" class="text-decoration-none align-self-end">COLLECTIBLES</a></li>
+                        <li><a href="/" class="text-decoration-none align-self-end">VIDEOS</a></li>
+                        <li><a href="/" class="text-decoration-none align-self-end">FANS</a></li>
+                        <li><a href="/" class="text-decoration-none align-self-end">NEWS</a></li>
+                        <li><a href="/" class="text-decoration-none align-self-end">SHOP</a></li>
                         <div class="row height d-flex justify-content-center align-items-center">
                             <div class="col-md-8">
                                 <div class="search d-flex s-control">
