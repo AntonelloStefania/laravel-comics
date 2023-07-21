@@ -1,6 +1,5 @@
 <footer>
     <div class="container-fluid">
-
         <div class="row">
             <div class="col-12 px-5 footer-top">
                 <ul class="list-unstyled d-flex align-items-center h-100 justify-content-around">

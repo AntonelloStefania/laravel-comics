@@ -12,7 +12,7 @@
                 </div>
                 <div class="d-flex align-items-center">
                     <ul class="list-unstyled d-flex ms-5">
-                        <a href="/" class="text-decoration-none align-self-end"><li class="mx-2">CHARACTERS</li></a>
+                        <a href="/" class="text-decoration-none align-self-end {{Route::currentRouteName() === 'homepage' ? 'active': ''}}"><li class="mx-2">CHARACTERS</li></a>
                         <a href="/" class="text-decoration-none align-self-end"><li class="mx-2">COMICS</li></a>
                         <a href="/" class="text-decoration-none align-self-end"><li class="mx-2">MOVIES</li></a>
                         <a href="/" class="text-decoration-none align-self-end"><li class="mx-2">TV</li></a>

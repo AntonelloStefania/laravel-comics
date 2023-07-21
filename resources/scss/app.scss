@@ -1,5 +1,12 @@
 @import '~bootstrap/scss/bootstrap';
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 header {
 
     .upper-header {
@@ -70,4 +77,38 @@ footer {
 
     }
 
+}
+
+.jumbotron {
+    height: 300px;
+    object-fit: cover;
+    object-position: top;
+
+    img {
+        width: 100%;
+    }
+
+}
+
+
+.main-bkg {
+    background-color: #1D1D1D;
+
+}
+
+.film-card {
+    width: 300px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-h4 {
+    background-color: rgba(41, 41, 41, 0.726);
+}
+
+.active {
+    color: #0282F9 !important;
+    border-bottom: 3px solid #0282F9
 }
