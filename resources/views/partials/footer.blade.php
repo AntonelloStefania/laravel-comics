@@ -45,9 +45,7 @@
                                 <div class="mx-4">
                                     <h5 class="fw-bold text-white">DC COMICS</h5>
                                     <ul class="list-unstyled">
-                                        <li>
-                                            <a href="/" class="text-decoration-none text-secondary">Characters</a>
-                                        </li>
+                                        <li><a href="/" class="text-decoration-none text-secondary">Characters</a></li>
                                         <li><a href="/" class="text-decoration-none text-secondary">Comics</a></li>
                                         <li><a href="/" class="text-decoration-none text-secondary">Movies</a></li>
                                         <li><a href="/" class="text-decoration-none text-secondary">TV</a></li>
@@ -64,29 +62,29 @@
                                 </div>
                                 <div>
                                     <h5 class="fw-bold text-white">DC</h5>
-                                        <ul class="list-unstyled">
-                                            <li><a href="/" class="text-decoration-none text-secondary">Terms Of Use</a></li>
-                                            <li><a href="/" class="text-decoration-none text-secondary">Privacy policy (New)</a></li>
-                                            <li><a href="/" class="text-decoration-none text-secondary">Ad Choice</a></li>
-                                            <li><a href="/" class="text-decoration-none text-secondary">Advertising</a></li>
-                                            <li><a href="/" class="text-decoration-none text-secondary">Jobs</a></li>
-                                            <li><a href="/" class="text-decoration-none text-secondary">Subscriptions</a></li>
-                                            <li><a href="/" class="text-decoration-none text-secondary">Talent Workshops</a></li>
-                                            <li><a href="/" class="text-decoration-none text-secondary">CPSC Certificates</a></li>
-                                            <li><a href="/" class="text-decoration-none text-secondary">Ratings</a></li>
-                                            <li><a href="/" class="text-decoration-none text-secondary">Shop Help</a></li>
-                                            <li><a href="/" class="text-decoration-none text-secondary">Contact Us</a></li>
-                                        </ul>
+                                    <ul class="list-unstyled">
+                                        <li><a href="/" class="text-decoration-none text-secondary">Terms Of Use</a></li>
+                                        <li><a href="/" class="text-decoration-none text-secondary">Privacy policy (New)</a></li>
+                                        <li><a href="/" class="text-decoration-none text-secondary">Ad Choice</a></li>
+                                        <li><a href="/" class="text-decoration-none text-secondary">Advertising</a></li>
+                                        <li><a href="/" class="text-decoration-none text-secondary">Jobs</a></li>
+                                        <li><a href="/" class="text-decoration-none text-secondary">Subscriptions</a></li>
+                                        <li><a href="/" class="text-decoration-none text-secondary">Talent Workshops</a></li>
+                                        <li><a href="/" class="text-decoration-none text-secondary">CPSC Certificates</a></li>
+                                        <li><a href="/" class="text-decoration-none text-secondary">Ratings</a></li>
+                                        <li><a href="/" class="text-decoration-none text-secondary">Shop Help</a></li>
+                                        <li><a href="/" class="text-decoration-none text-secondary">Contact Us</a></li>
+                                    </ul>
                                 </div>
                                 <div class="ps-2">
                                     <h5 class="fw-bold text-white">SITES</h5>
-                                        <ul class="list-unstyled">
-                                            <li><a href="/" class="text-decoration-none text-secondary">DC</a></li>
-                                            <li><a href="/" class="text-decoration-none text-secondary">MAD Magazine</a></li>
-                                            <li><a href="/" class="text-decoration-none text-secondary">DC Kids</a></li>
-                                            <li><a href="/" class="text-decoration-none text-secondary">DC Universe</a></li>
-                                            <li><a href="/" class="text-decoration-none text-secondary">DC Power Visa</a></li>
-                                        </ul>
+                                    <ul class="list-unstyled">
+                                        <li><a href="/" class="text-decoration-none text-secondary">DC</a></li>
+                                        <li><a href="/" class="text-decoration-none text-secondary">MAD Magazine</a></li>
+                                        <li><a href="/" class="text-decoration-none text-secondary">DC Kids</a></li>
+                                        <li><a href="/" class="text-decoration-none text-secondary">DC Universe</a></li>
+                                        <li><a href="/" class="text-decoration-none text-secondary">DC Power Visa</a></li>
+                                    </ul>
                                 </div>
                             </div>
                             <div class="w-50">
