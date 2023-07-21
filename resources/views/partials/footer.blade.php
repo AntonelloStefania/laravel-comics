@@ -85,29 +85,28 @@
                     </span>
                 </div>
             </div>
-            <div class="col-12">
+            <div class="col-12 bottom-footer d-flex justify-content-between px-5 py-3 align-items-center">
                 <div>
-
-                    <button>sign-up now</button>
+                    <button class="btn btn-sm btn-outline-primary text-white ">SIGN-UP NOW</button>
                 </div>
 
-                <div>
-                    <span>FOLLOW US</span>
-                    <ul class="list-unstyled d-flex">
-                        <a href="/"><li>
-                            <img src="{{Vite::asset('/resources/image/footer-facebook.png')}}" alt="">
+                <div  class="d-flex">
+                    <span class="align-self-center me-3 text-primary fw-bold">FOLLOW US</span>
+                    <ul class="list-unstyled d-flex pt-3">
+                        <a href="/" class=""><li class="w-25 mx-1">
+                            <img src="{{Vite::asset('/resources/images/footer-facebook.png')}}" alt="">
                         </li></a>
-                        <a href="/"><li>
-                            <img src="{{Vite::asset('/resources/image/footer-twitter.png')}}" alt="">
+                        <a href="/" class=""><li class="w-25 mx-1">
+                            <img src="{{Vite::asset('/resources/images/footer-twitter.png')}}" alt="">
                         </li></a>
-                        <a href="/"><li>
-                            <img src="{{Vite::asset('/resources/image/footer-youtube.png')}}" alt="">
+                        <a href="/" class=""><li class="w-25 mx-1">
+                            <img src="{{Vite::asset('/resources/images/footer-youtube.png')}}" alt="">
                         </li></a>
-                        <a href="/"><li>
-                            <img src="{{Vite::asset('/resources/image/footer-pinterest.png')}}" alt="">
+                        <a href="/" class=""><li class="w-25 mx-1">
+                            <img src="{{Vite::asset('/resources/images/footer-pinterest.png')}}" alt="">
                         </li></a>
-                        <a href="/"><li>
-                            <img src="{{Vite::asset('/resources/image/footer-periscope.png')}}" alt="">
+                        <a href="/" class=""><li class="w-25 mx-1">
+                            <img src="{{Vite::asset('/resources/images/footer-periscope.png')}}" alt="">
                         </li></a>
                     </ul>
                 </div>
