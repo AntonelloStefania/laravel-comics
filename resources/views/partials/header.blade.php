@@ -25,7 +25,7 @@
                         <div class="row height d-flex justify-content-center align-items-center">
                             <div class="col-md-8">
                                 <div class="search d-flex s-control">
-                                    <input type="text" class="form-control s-bar" placeholder="">
+                                    <input type="text" class="form-control s-bar" placeholder="Search">
                                     <i class="fa fa-search align-self-center"></i>
                                 </div>
                             </div>
