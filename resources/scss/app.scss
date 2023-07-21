@@ -1,1 +1,68 @@
 @import '~bootstrap/scss/bootstrap';
+
+header {
+
+    .upper-header {
+        background-color: #0282F9;
+        padding-right: 5rem;
+
+        a {
+            color: white;
+            font-size: 10px;
+
+
+        }
+    }
+
+    a {
+        color: #464646;
+    }
+
+    img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .s-bar {
+        border: none;
+    }
+
+    .s-control {
+        border-bottom: 2px solid #0282F9;
+        height: 25px;
+
+        i {
+            color: #464646;
+            font-weight: bold;
+        }
+    }
+
+    li {
+        font-size: 12px;
+    }
+}
+
+
+footer {
+    span {
+        font-size: 12px
+    }
+
+    .footer-top {
+        background-color: #0282F9;
+        color: white;
+        height: 70px;
+
+        .footer-icons {
+            width: 80px;
+            height: 40px
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    }
+
+
+}
