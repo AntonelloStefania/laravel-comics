@@ -1,58 +1,60 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="col-12 blue-line-comics"></div>
-<div class="d-flex justify-content-around position-relative">
-    <div class="col-3 ms-5 film-card d-flex position-absolute card-show " style="background-image:url({{ $comic['thumb'] }})"
-        alt="poster">
-        <div class="w-100 d-flex align-self-end h-100 flex-column justify-content-between">
-           <span class="label w-50 text-center text-thumb">COMIC BOOK</span>
-           <span class="label w-100 text-center text-thumb">VIEW GALLERY</span>
-        </div>
-    </div>
-    <div  class="text-white ps-5 py-4">
-        <div class="d-flex justify-content-around pt-5">
-            <div class="col">
-                <h4>{{$comic['title']}}</h4>
-                <h6>{{$comic['series']}}</h6>
-                <div class="d-flex flex-column">
-                    <span><strong>Release Date:</strong> {{ date('Y-M-d', strtotime($comic['sale_date'])) }}</span>
-                    <span><strong>Price:</strong>{{$comic['price']}}</span>
-                    <div class="col pe-5 mt-5">
-                        <p class=" text-white">{{$comic['description']}}</p>
-                    </div>
-                    <div class="pt-4 d-flex">
-                        <div class="d-flex flex-column">
-                            <h5 class="ms-5">Art by:</h5>
-                            <ul class="ms-4">
-                                @foreach ($comic['artists'] as $artist)
-                               <li> 
-                                {{$artist}}
-                               </li>
-                               @endforeach
-                            </ul>
-                        </div>
-                        <div class="d-flex flex-column">
-                            <h5 class="ms-5">Writers:</h5>
-                            <ul class="ms-4">
-                                @foreach($comic['writers'] as $writers)
-                                <li>
-                                    {{$writers}}
-                                </li>
-                                @endforeach
-                            </ul>
-                        </div>
-                    </div>
+<div class="main-bkg position-relative">
+    @include('partials.jumbotron')
+        <div class="col-12 blue-line-comics"></div>
+        <div class="d-flex justify-content-around position-relative">
+            <div class="col-3 ms-5 film-card d-flex position-absolute card-show " style="background-image:url({{ $comic['thumb'] }})"
+                alt="poster">
+                <div class="w-100 d-flex align-self-end h-100 flex-column justify-content-between">
+                <span class="label w-50 text-center text-thumb">COMIC BOOK</span>
+                <span class="label w-100 text-center text-thumb">VIEW GALLERY</span>
                 </div>
             </div>
-            <div class="me-5 position-relative">
-                <span class="label bg-warning fw-bold position-absolute p-2 m-2">ADVERTISEMENT</span>
-                <img src="{{ Vite::asset('/public/adv.jpg') }}" alt="">
-            </div>
+            <div  class="text-white ps-5 py-4">
+                <div class="d-flex justify-content-around pt-5">
+                    <div class="col">
+                        <h4>{{$comic['title']}}</h4>
+                        <h6>{{$comic['series']}}</h6>
+                        <div class="d-flex flex-column">
+                            <span><strong>Release Date:</strong> {{ date('Y-M-d', strtotime($comic['sale_date'])) }}</span>
+                            <span><strong>Price:</strong>{{$comic['price']}}</span>
+                            <div class="col pe-5 mt-5">
+                                <p class=" text-white">{{$comic['description']}}</p>
+                            </div>
+                            <div class="pt-4 d-flex">
+                                <div class="d-flex flex-column">
+                                    <h5 class="ms-5">Art by:</h5>
+                                    <ul class="ms-4">
+                                        @foreach ($comic['artists'] as $artist)
+                                    <li> 
+                                        {{$artist}}
+                                    </li>
+                                    @endforeach
+                                    </ul>
+                                </div>
+                                <div class="d-flex flex-column">
+                                    <h5 class="ms-5">Writers:</h5>
+                                    <ul class="ms-4">
+                                        @foreach($comic['writers'] as $writers)
+                                        <li>
+                                            {{$writers}}
+                                        </li>
+                                        @endforeach
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="me-5 position-relative">
+                        <span class="label bg-warning fw-bold position-absolute p-2 m-2">ADVERTISEMENT</span>
+                        <img src="{{ Vite::asset('/public/adv.jpg') }}" alt="">
+                    </div>
+                </div>
+            </div>    
+            
         </div>
-        
-        
-    </div>
 </div>
 <div class="container-fluid">
     <div class="row comic-footer-top-row">

@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laravel</title>
+    <title>Laravel-dc</title>
 
     <!-- Fonts -->
     <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -25,14 +25,7 @@
     @include('partials.header')
 
     <main>
-    <div class="jumbotron">
-            <img src="{{ Vite::asset('/resources/images/jumbotron.jpg') }}" alt="">
-        </div>
-    <div class="main-bkg position-relative">
         @yield('content')
-    </div>
-        
-   
     </main>
     @include('partials.footer')
 
