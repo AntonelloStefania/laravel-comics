@@ -12,8 +12,8 @@
                 </div>
                 <div class="d-flex align-items-center">
                     <ul class="list-unstyled d-flex ms-5">
-                        <li></li><a href="/" class="text-decoration-none align-self-end {{Route::currentRouteName() === 'homepage' ? 'active': ''}}">CHARACTERS</a></li>
-                        <li><a href="/" class="text-decoration-none align-self-end">COMICS</a></li>
+                        <li><a href="/" class="text-decoration-none align-self-end {{Route::currentRouteName() === 'homepage' ? 'active': ''}}">CHARACTERS</a></li>
+                        <li><a href="/" class="text-decoration-none align-self-end {{Route::currentRouteName() === 'comic' ? 'active': ''}}">COMICS</a></li>
                        <li><a href="/" class="text-decoration-none align-self-end">MOVIES</a></li>
                         <li><a href="/" class="text-decoration-none align-self-end">TV</a></li>
                         <li><a href="/" class="text-decoration-none align-self-end">GAMES</a></li>
