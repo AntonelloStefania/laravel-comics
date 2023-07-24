@@ -21,9 +21,9 @@
                             SUBSCRIPTION
                         </span>
                     </a></li>
-                    <li class="d-flex"><a href="/" class="text-white text-decoration-none">
+                    <li class="d-flex"><a href="/" class="text-white text-decoration-none d-flex">
                         <img class="footer-icons w-25" src="{{Vite::asset('./resources/images/buy-comics-shop-locator.png')}}" alt="">
-                        <span class="align-self-center ms-3 ">
+                        <span class="align-self-center ps-2 ">
                             COMIC SHOP LOCATOR
                         </span>
                         </a></li>

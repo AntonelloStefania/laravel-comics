@@ -25,7 +25,15 @@
     @include('partials.header')
 
     <main>
-    @yield('content')
+    <div class="jumbotron">
+            <img src="{{ Vite::asset('/resources/images/jumbotron.jpg') }}" alt="">
+        </div>
+    <div class="main-bkg position-relative py-4">
+
+        @yield('content')
+    </div>
+        
+   
     </main>
     @include('partials.footer')
 
