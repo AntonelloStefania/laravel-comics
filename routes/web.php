@@ -20,6 +20,7 @@ Route::get('/', function () {
 
 Route::get('/comics/{id}', function($id){
      $comics= config('db-comics.comics');
+     
     
      if($id >=0 && $id < count($comics)){
          $comic = $comics[$id];

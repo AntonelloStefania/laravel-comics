@@ -17,13 +17,30 @@
                 <div class="d-flex flex-column">
                     <span><strong>Release Date:</strong> {{$comic['sale_date']}}</span>
                     <span><strong>Price:</strong>{{$comic['price']}}</span>
-                    <div class="col-6 pe-4 mt-5">
+                    <div class="col pe-5 mt-5">
                         <p class=" text-white">{{$comic['description']}}</p>
                     </div>
-                    <div>
-                        <ul>
-                           <li> </li>
-                        </ul>
+                    <div class="pt-4 d-flex">
+                        <div class="d-flex flex-column">
+                            <h5 class="ms-5">Art by:</h5>
+                            <ul class="ms-4">
+                                @foreach ($comic['artists'] as $artist)
+                               <li> 
+                                {{$artist}}
+                               </li>
+                               @endforeach
+                            </ul>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <h5 class="ms-5">Writers:</h5>
+                            <ul class="ms-4">
+                                @foreach($comic['writers'] as $writers)
+                                <li>
+                                    {{$writers}}
+                                </li>
+                                @endforeach
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>

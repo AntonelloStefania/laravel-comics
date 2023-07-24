@@ -1,7 +1,7 @@
 <footer>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12 px-5 footer-top">
+            <div class="col-12 px-5 py-5 footer-top">
                 <ul class=" list-unstyled d-flex align-items-center h-100 justify-content-around">
                     <li><a href="/" class="text-white text-decoration-none">
                         <img class="w-25" src="{{Vite::asset('./resources/images/buy-comics-digital-comics.png')}}" alt="">
