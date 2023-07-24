@@ -28,8 +28,7 @@
     <div class="jumbotron">
             <img src="{{ Vite::asset('/resources/images/jumbotron.jpg') }}" alt="">
         </div>
-    <div class="main-bkg position-relative pb-4">
-
+    <div class="main-bkg position-relative">
         @yield('content')
     </div>
         

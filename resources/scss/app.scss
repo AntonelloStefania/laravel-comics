@@ -21,8 +21,6 @@ header {
         }
     }
 
-
-
     img {
         width: 50px;
         height: 50px;
@@ -55,27 +53,34 @@ header {
     }
 }
 
+.label-blu {
+    width: 155px;
+    top: 0;
+    transform: translateY(-250%);
+}
+
+
+.footer-top {
+    background-color: #0282F9;
+    color: white;
+    height: 70px;
+
+    .footer-icons {
+        width: 80px;
+        height: 40px
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+}
 
 footer {
     span {
         font-size: 12px
     }
 
-    .footer-top {
-        background-color: #0282F9;
-        color: white;
-        height: 70px;
-
-        .footer-icons {
-            width: 80px;
-            height: 40px
-        }
-
-        a {
-            text-decoration: none;
-            color: white;
-        }
-    }
 
     .footer-bg {
         background-repeat: no-repeat;
@@ -138,4 +143,38 @@ footer {
     height: 100px;
     width: 100%;
     background-color: #0282F9;
+}
+
+.text-thumb {
+    font-size: 8px;
+    color: white;
+    height: 15px;
+    font-weight: bold;
+    background-color: #00A9D9;
+}
+
+.comic-footer-top {
+    background-color: #8383839f;
+    color: white;
+    height: 70px;
+
+    .footer-icons {
+        width: 80px;
+        height: 40px
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    span {
+        font-size: 10px;
+        padding-right: 3px;
+
+    }
+}
+
+.comic-footer-top-row {
+    background-color: #8383839f;
 }
