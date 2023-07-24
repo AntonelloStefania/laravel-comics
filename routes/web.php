@@ -20,6 +20,13 @@ Route::get('/', function () {
 
 Route::get('/comics/{id}', function($id){
      $comics= config('db-comics.comics');
-     $comic = $comics[$id];
-     return view('products.comics', compact('comic'));
+    
+     if($id >=0 && $id < count($comics)){
+         $comic = $comics[$id];
+         return view('products.comics', compact('comic'));
+
+     }
+     else(
+        abort('404')
+     );
  })->name('comic');

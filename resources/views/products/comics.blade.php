@@ -20,6 +20,11 @@
                     <div class="col-6 pe-4 mt-5">
                         <p class=" text-white">{{$comic['description']}}</p>
                     </div>
+                    <div>
+                        <ul>
+                           <li> </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <div class="me-5 position-relative">
