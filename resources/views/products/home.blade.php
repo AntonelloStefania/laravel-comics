@@ -4,7 +4,7 @@
        
             <div class="container">
                 <div class="row">
-                    <div class="col-12 d-flex flex-wrap justify-content-center">
+                    <div class="col-12 d-flex flex-wrap justify-content-center pt-4">
                         @foreach ($comics as $id => $comic)
                         <a href="{{ route('comic', $id) }}">
                             <div class="col-3 m-2 film-card d-flex" style="background-image:url({{ $comic['thumb'] }})"

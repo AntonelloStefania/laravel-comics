@@ -123,5 +123,19 @@ footer {
 
 .active {
     color: #0282F9 !important;
-    border-bottom: 3px solid #0282F9
+    border-bottom: 3px solid #0282F9;
+}
+
+.card-show {
+    top: 0;
+    left: 0;
+    transform: translateY(-120%);
+    width: 150px;
+    height: 200px;
+}
+
+.blue-line-comics {
+    height: 100px;
+    width: 100%;
+    background-color: #0282F9;
 }
